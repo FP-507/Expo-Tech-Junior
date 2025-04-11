@@ -3,8 +3,8 @@ import os
 
 def main(page:ft.Page):
     page.window.always_on_top = True
-    page.theme_mode = ft.ThemeMode.LIGHT
-    page.bgcolor = "#ffffff"
+    page.theme_mode = ft.ThemeMode.DARK
+    page.bgcolor = "#eeffee"
     page.title = "Prueba de Medallas"
     page.spacing = True
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
